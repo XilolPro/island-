@@ -1,0 +1,605 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.container{
+    padding: 20px 100px;
+}
+.menu{
+    display: flex;
+    color: #CACACA; 
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.discover{
+    width: 50%;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;    
+}
+.home{
+    width: 50%;
+}
+.link{
+    text-decoration: none;
+    color: hsl(0, 0%, 79%);
+    margin-left: 15px;
+    font-size: 29px;
+}
+.link1{
+    background-color: blue;
+    padding: 10px 15px;
+    font-size: 24px;
+    border-radius: 5px;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.img{
+    width: 5%;
+    display: inline-block;
+    margin: 0 2px;
+}
+.all2{
+    background-image:url(img/street.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    overflow: hidden;
+}
+.best{
+    font-size: 15px;
+}
+.off{
+    color: #23a4ea;
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.h2, .best, .link1, .text2, .btn{
+    color: white;
+}
+.h2{
+    font-size: 35px;
+    margin-top: 0;
+}
+.text2{
+    width: 50%;
+    font-size: 25px;
+}
+.btn{
+    background-color: transparent;
+    padding: 10px 35px;
+    border: 2px solid white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.title{
+    color: #6B6B6B;
+    text-align: center;
+}
+.input{
+    border: 3px solid gray;
+    padding: 15px;
+    margin-left: 50px;
+}
+.btn2{
+    padding: 15px 20px;  
+    background-color: #1188D4;
+    color: white;
+    margin-left: 30px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img2{
+    width: 35%;
+    margin-right: 50px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.title2{
+    color: #FDD386;
+    font-size: 35px;
+    font-weight: bold;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.btn3{
+    padding: 15px 20px;  
+    background-color: #1188D4;
+    color: white;
+    margin-left: 30px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 70%;
+    border-radius: 5px;
+}
+.text3{
+    font-size: 25px;
+    color: #a19999;
+}
+.us{
+    margin-top: 100px;
+}
+.img3{
+    width: 5%;
+    opacity: 0.1;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.rasm3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.title3{
+    color: #FBD585;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.text4{
+    color: gray;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.flex2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.flexes2{
+    width: 33%;
+    color: #479ED7;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.img5{
+    width: 70%;
+    border: 0.2 px solid gray;
+    padding: 10px;
+}
+.btn4{
+    border-radius: 10px;
+}
+.bt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.title4{
+    margin-top: 80px;
+}
+.books{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.book{
+    border: 2px solid grey;
+}
+.books{
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-top: 2px solid grey;
+}
+.div2, .div1, .div3, .div4{
+    border-right: 2px solid gray;
+    margin-right: 10px;
+}
+.icon{
+    font-size: 50px;
+    margin-left: 50%;
+}
+.title6, .text7, .place1, .text8, .map, .time, .div5{
+    text-align: center;
+}
+.place1{
+    color: #55A5D7;
+}
+.title6{
+    color: #FDD694;
+}
+.text7, .text8, .map, .time{
+    color: rgb(100, 97, 97);
+}
+.btn8{
+    color: white;
+    background-color: #1188D4;
+    font-size: 25px;
+    border: none;   
+}
+.link2{
+    color: #F4D873;
+}
+.ship{
+    background-image: url(img/persidskiy_zaliv_033.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.opacity{
+    opacity: 0.7;
+    background-color: white;
+}
+.title9{
+    color: blue;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 90px;
+}
+.text9{
+    color: grey;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 40px;
+}
+.text10{
+    font-size: 15px;
+    color: grey;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.btn9{
+    color: white;
+    font-size: 25px;
+    background-color: #1188D4;
+    border: none;
+    padding: 10px;  
+    border-radius: 10px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.title10{
+    color: #3599D8;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+.text11{
+    color: grey;
+    text-align: center;
+    font-size: 25px;
+}
+.input2{
+    padding: 10px 100px 15px 10px;
+    border-radius: 10px;
+}
+.form2{
+    text-align: center;
+    margin-top: 60px;
+}
+.btn10{
+    color: white;
+    background-color: #1188D4;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+.img6{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.flex3{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.iconss{
+    color: #0BD6DE;
+    margin-right: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.text13, .phone, .text12, .title11{
+    color: grey;
+    margin: 0;
+}
+.footer{
+    background-color: #282828;
+    padding: 30px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.flex3{
+    width: 30%;
+}
+.footer2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.icon2{
+    background-color: #CFCFCF;
+    color: #282828;
+    font-size: 25px;
+    border-radius: 50%;
+    padding: 20px;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+}
+.link3{
+    color: #E9C68A;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.text13{
+    font-size: 20px;
+}
+.div{
+    width: 50%;
+}
+.input2{
+    font-size: 30px;
+}
+.btn10{
+    font-size: 35px;
+}
+.cons{
+    font-size: 25px;
+    color: grey;
+}
+.num, .lor{
+    color: grey;
+    font-size: 25px;
+}
+.conts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.con{
+    width: 30%;
+     margin-left: 2px;
+}
+@media(max-width:1445px){
+    .container{
+        padding: 10px 90px;
+    }
+    .input{
+        width: 33%;
+    }
+    .input1{
+        margin-bottom: 20px;
+    }
+    .img3{
+        width: 15%;
+    }
+    .links3{
+        margin: auto;
+    }
+}
+@media(max-width:1320px){
+    .container{
+        padding: 8px 80px;
+    }
+    .link{
+        width: 50%;
+        margin-left: auto;
+        margin-top: 20px;
+    }
+    .link1{
+        margin-right: 45%;
+        text-align: center;
+    }
+    .btn2{
+        margin-top: 20px;
+        margin: auto;
+    }
+}
+@media(max-width:1166px){ 
+    .container{
+        padding: 6px 75px;
+    }
+    .btn2{
+        margin: auto;
+        margin-top: 20px;
+    }
+    .input{
+        font-size: 25px;
+    }
+    .con{
+        width: 49%;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:1064px){
+    .div{
+        width: 100%;
+    }
+    .img2{
+        margin: auto;
+    }
+    .flexes2{
+        width: 50%;
+    }
+}
+@media(max-width:924px){
+    .container{
+        padding: 5px 70px;
+    }
+    .link{
+        width: 100%;
+        margin-left: auto;
+        margin-top: 20px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .home{
+        width: 100%;
+        text-align: center;
+    }
+
+    .icons2{
+        margin-left: 20px;
+    }
+    .link1{
+        margin-right: 0;
+    }
+    .discover{
+        margin: auto;
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .img{
+        width: 15%;
+    }
+    .container{
+        padding: 4px 65px;
+    }
+    .discover{
+        font-size: 30px;
+    }
+    .best{
+        font-size: 30px;
+    }
+    .img3{
+        width: 25%;
+    }
+    .title9{
+        font-size: 40px;
+    }
+    .text9{
+        font-size: 30px;
+    }
+    .text10{
+        font-size: 20px;
+    }
+    .con{
+        width: 100%;
+    }
+}
+@media(max-width:790px){
+    .links3, .icons2, .text13{
+        text-align: center;
+        margin-top: 20px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:697px){
+    .container{
+        padding: 2px 60px;
+    }
+    .all2{
+        text-align: center;
+    }
+    .text2{
+        width: 60%;
+        font-size: 25px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .flexes2{
+        width: 100%;
+    }
+    .img5{
+        width: 100%;
+    }
+    .text4{
+        font-size: 25px;
+    }
+}
+@media(max-width:677px){
+    .container{
+        padding: 0 50px;
+    }
+    .discover{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .input2{
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 30px 10px;
+        font-size: 25px;
+    }
+    .btn10{
+        width: 100%;
+        padding: 30px 10px;
+        font-size: 25px;
+    }
+}
+@media(max-width:641px){
+    .container{
+        padding: 5px 40px;
+    }
+    .input{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:583px){
+    .container{
+        padding: 5px 30px;
+    }
+    .text2{
+        width: 80%;
+    }
+    .img2{
+        width: 100%;
+    }
+}
+@media(max-width:457px){
+    .container{
+        padding: 5px 20px;
+    }
+    .discover{
+        font-size: 25px;
+    }
+    .text2{
+        width: 90%;
+    }
+}
